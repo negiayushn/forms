@@ -7,14 +7,20 @@
 </head>
 <body>
     <center>
-    <table border="1px"  > 
+        <form  >
+            <fieldset >
+                <legend> Personal Information</legend>
+    <table   cellspacing="20"  align="center"  > 
        <thead >
        <tr > <td colspan="2"> <center>HTML FORM</center></td> </tr>
         
        </thead>
        <tbody>
-        <form  >
-        <tr>
+       
+       
+           
+        <tr> 
+
             <td><label for="Name" >Enter Your Name</label></td>
             <td> <center><input type="text" id="Name" autofocus  placeholder="Enter Your Name"> </td>
 
@@ -34,11 +40,15 @@
         </tr>
         <tr>
             <td> <label for="file">Enter Your Cv</label></td>
-            <td><center> <input type="file" id="file" ></td>
+            <td> <center> <input type="file" id="file" ></td>
         </tr>
+
+
+      
+     
         <tr>
             <td><label for="Select">Select Your Gender </label> </td>
-            <td> <select name="Select" id="Select" >
+            <td>  <center><select name="Select" id="Select" >
                 
                 <option value="1">Male</option>
                 <option value="2">Female</option>
@@ -50,10 +60,10 @@
 
         </tr>
         <tr>
-            <td> <label for="dob ">Enter date of birth</label></td><td> <input type="date" id="dob"></td>
+            <td> <label for="dob ">Enter date of birth</label></td><td> <center><input type="date" id="dob"></td>
         </tr>
         <tr>
-            <td><label for="img" >Enter your Image</label></td><td><input type="image" id="img" placeholder="image"></td>
+            <td><label for="img" >Enter your Image</label></td><td> <center><input type="image" id="img" placeholder="image"></td>
         </tr>
         <tr>
             <td><label for="link">Enter your linkdein</label></td>
@@ -83,13 +93,16 @@
         <td><label for="submit">Submit Form</label></td>
         <td><center><input type="submit"></td>
      </tr>
+     
      <tr>
         <td colspan="2"><center><input type="reset" name="" id=""></td>
      </tr>
-    </form>
+    
        </tbody>
-
+   
     </table>
+    </fieldset>
+</form  >
     </center>
 </body>
 </html>
